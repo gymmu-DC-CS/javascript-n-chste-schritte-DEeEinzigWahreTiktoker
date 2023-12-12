@@ -55,6 +55,9 @@ export function aufgabe04(args) {
   return result + 1
 }
 
+
+// Ufgob 5 
+
 export function aufgabe05(args) {
   const input = args
   if (input.toLowerCase() === input) {
@@ -65,13 +68,19 @@ export function aufgabe05(args) {
 }
 
 
+
+// Ufgob 6
+
 export function aufgabe06(args) {
   const input = args
+
   if (input === "") {
     return false
   }
-  for ( let i =0; i < input.lenght; i++) {
+
+  for ( let i = 0; i < input.length; i++) {
     const currentElement = input [i].toLowerCase()
+    console.log(currentElement.charCodeAt())
     if (currentElement.charCodeAt() < 97 || currentElement.charCodeAt() > 122) {
       if (currentElement.charCodeAt() != 32) {
         return true
@@ -82,4 +91,11 @@ export function aufgabe06(args) {
   return false
 }
 
+
+
+// Ufgob 7
+
+export function aufgabe07(args) {
+  const input = args
+}
 
