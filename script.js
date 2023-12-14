@@ -96,6 +96,45 @@ export function aufgabe06(args) {
 // Ufgob 7
 
 export function aufgabe07(args) {
-  const input = args
+  const input = args
+  if (
+    (input.indexOf(" und ") !=-1 && input.indexOf("Und") != 0) ||
+    input.indexOf("Und") === 0 ||
+    input === "und"
+  )
+  return true
+  else return false
 }
+
+
+
+// Ufgob 8
+
+export function aufgabe08(args) {
+  const input = args;
+
+  var textMit3 = input.replace(/[e]/g, '3');
+
+  return textMit3;
+}
+
+
+
+
+// Ufgob 9
+
+export function aufgabe09(args) {
+  const input = args
+  if (input.length === 6) return true
+  else return false 
+}
+
+
+// Ufgob 10
+
+export function aufgabe10(args) {
+  const input = args
+  rexHe
+}
+
 
