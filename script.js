@@ -133,8 +133,29 @@ export function aufgabe09(args) {
 // Ufgob 10
 
 export function aufgabe10(args) {
-  const input = args
-  rexHe
+  const input = args.toUpperCase()
+  let result = true
+
+if 
+  
 }
+
+
+
+
+
+// Ufgob 11
+
+export function aufgabe11(args) {2
+  const input = args;
+
+  if (input.length === 1) {
+      return input.charCodeAt(0);
+  } else {
+      return "null"
+  }
+}
+
+
 
 
